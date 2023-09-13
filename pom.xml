@@ -31,7 +31,7 @@
 
 		<checkstyle.version>10.12.0</checkstyle.version>
 
-		<admin.server.version>3.1.5</admin.server.version>
+		<admin.server.version>3.1.6</admin.server.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>
 	</properties>
 
@@ -45,10 +45,6 @@
 			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-server</artifactId>
 			<version>${admin.server.version}</version>
@@ -57,6 +53,14 @@
 			<groupId>de.codecentric</groupId>
 			<artifactId>spring-boot-admin-server-ui</artifactId>
 			<version>${admin.server.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
