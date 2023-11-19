@@ -7,14 +7,14 @@ Check this as reference: https://www.tutorialspoint.com/spring_boot/spring_boot_
 ### Pre-requisites
 
 * Maven 3
-* Java 17
+* Java 21
 
 ### Docker Image
 
 - In the project dir, build using the command:
 
 ```bash
-docker build -t gsdd-eureka-server .
+docker build -t gsdd-admin-server .
 ```
 
 - Run the docker image as:
