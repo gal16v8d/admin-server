@@ -17,6 +17,9 @@ service:
 spring:
   application:
     name: admin-server
+  cloud:
+    compatibility-verifier:
+      enabled: false
   config:
     import: "optional:configserver:http://localhost:8088"
   output:
